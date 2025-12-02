@@ -12,11 +12,18 @@ terraform-alicloud-landing-zone-resource-structure
 注意，由于资源目录中账号的删除存在静默期，这会导致保有账号的资源夹删除失败。
 
 ![架构图](https://raw.githubusercontent.com/alibabacloud-automation/terraform-alicloud-landing-zone-resource-structure/main/scripts/Structure-CN.png)
+
 ## 用法
+
+<div style="display: block;margin-bottom: 40px;"><div class="oics-button" style="float: right;position: absolute;margin-bottom: 10px;">
+  <a href="https://api.aliyun.com/terraform?source=Module&activeTab=document&sourcePath=alibabacloud-automation%3A%3Alanding-zone-resource-structure&spm=docs.m.alibabacloud-automation.landing-zone-resource-structure&intl_lang=EN_US" target="_blank">
+    <img alt="Open in AliCloud" src="https://img.alicdn.com/imgextra/i1/O1CN01hjjqXv1uYUlY56FyX_!!6000000006049-55-tps-254-36.svg" style="max-height: 44px; max-width: 100%;">
+  </a>
+</div></div>
 
 通过Terraform开通资源目录并创建核心账号和资源夹，选择财务结算方式。
 
-```terraform
+```hcl
 provider "alicloud" {
   region = "cn-hangzhou"
 }
