@@ -59,12 +59,13 @@ module "landingzone_resource_structure" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.3 |
+| <a name="requirement_alicloud"></a> [alicloud](#requirement\_alicloud) | >= 1.200.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_alicloud"></a> [alicloud](#provider\_alicloud) | n/a |
+| <a name="provider_alicloud"></a> [alicloud](#provider\_alicloud) | >= 1.200.0 |
 
 ## Modules
 
@@ -74,13 +75,13 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [alicloud_resource_manager_account.log_archive](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/resource_manager_account) | resource |
-| [alicloud_resource_manager_account.ops](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/resource_manager_account) | resource |
-| [alicloud_resource_manager_account.security](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/resource_manager_account) | resource |
-| [alicloud_resource_manager_account.shared_services](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/resource_manager_account) | resource |
-| [alicloud_resource_manager_folder.core](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/resource_manager_folder) | resource |
-| [alicloud_resource_manager_resource_directory.master](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/resource_manager_resource_directory) | resource |
-| [alicloud_account.current_account](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/data-sources/account) | data source |
+| [alicloud_resource_manager_account.log_archive](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/resource_manager_account) | resource |
+| [alicloud_resource_manager_account.ops](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/resource_manager_account) | resource |
+| [alicloud_resource_manager_account.security](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/resource_manager_account) | resource |
+| [alicloud_resource_manager_account.shared_services](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/resource_manager_account) | resource |
+| [alicloud_resource_manager_folder.core](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/resource_manager_folder) | resource |
+| [alicloud_resource_manager_resource_directory.master](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/resource_manager_resource_directory) | resource |
+| [alicloud_account.current_account](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/data-sources/account) | data source |
 
 ## Inputs
 
